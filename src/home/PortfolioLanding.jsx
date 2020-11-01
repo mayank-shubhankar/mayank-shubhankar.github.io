@@ -15,18 +15,18 @@ const SlideList = [
         textPosition: 'text-left',
         category: 'I am a designer turned product manager and a self-taught developer.',
         title: 'Hello, I’m <span>Mayank</span>.',
-        description: 'This website was coded using React.js , as a fun activity because I wanted to learn.',
+        description: 'This serious portfolio website was coded using React.js, as a fun activity.',
         buttonText: '',
         buttonLink: ''
     }
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I graduated from IIT Guwahati in 2018, with Bachelor in Design.';
+        description = 'I am a product manager working with Zycus. Over the last 2.5 years, I have delved deep into financial systems : ETMONEY - Mutual Funds (B2C), Zycus - Procurement (B2B).';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div>
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Homepage" />
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
             <div id="home" className="fix">
@@ -63,7 +63,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-7.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/Mayank_profile.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

@@ -7,8 +7,8 @@ import Scrollspy from 'react-scrollspy'
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/mayank.shubhankar'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/mayank-shubhankar'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class HeaderSix extends Component{
     constructor(props) {

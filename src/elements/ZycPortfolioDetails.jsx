@@ -57,8 +57,8 @@ class ZycPortfolioDetails extends Component{
 
 
                                         <h4 className="title">Fill the Google Form at the link below to get access to the project.</h4>
-                                        <p>Project started with a clear understanding of Samsung's philosophy. There are 3 pillars of Samsung's philosophy.</p>
-                                        
+                                        {/* <p>Project started with a clear understanding of Samsung's philosophy. There are 3 pillars of Samsung's philosophy.</p>
+                                         */}
                                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_Pa0LhwCky-1cmt5EkhQEFQ43Bhe72rgPan-3PjDh7Y3JZA/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                                         
                                         
@@ -106,12 +106,12 @@ class ZycPortfolioDetails extends Component{
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
+                                        <a href="/samsung">
+                                            <img src="/assets/images/portfolio/samsung.png" alt="Portfolio-images"/>
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">What is next for messaging</a></h4>
+                                        <h4><a href="/samsung">What is next for messaging</a></h4>
                                         <span className="category">Samsung Research and Development Institute</span>
                                     </div>
                                 </div>
@@ -121,13 +121,13 @@ class ZycPortfolioDetails extends Component{
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
+                                        <a href="/microsoft">
+                                            <img src="/assets/images/portfolio/microsoft.png" alt="Portfolio-images"/>
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
-                                        <span className="category">PLANNING</span>
+                                        <h4><a href="/microsoft">Exploration on Healthcare</a></h4>
+                                        <span className="category">Microsoft Research, Bangalore</span>
                                     </div>
                                 </div>
                             </div>

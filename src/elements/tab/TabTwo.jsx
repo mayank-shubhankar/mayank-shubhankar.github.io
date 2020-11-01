@@ -4,10 +4,10 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Experience",
+        tab1 = "Work Experience",
         tab2 = "Internships",
-        tab3 = "Awards",
-        tab4 = "Education & Certification";
+        tab3 = "Achievements",
+        tab4 = "Education";
         const { tabStyle } = this.props
         return(
             <div>
@@ -28,16 +28,21 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a >Associate Product Lead - Merlin AI Bot<span> (July 2020 - Till now)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                                    <a >Associate Product Lead, Data Science | Zycus, Mumbai, India<span> (Aug 2020 - Till date)</span></a>
+                                                        Responsible for conceptualizing and delivering bots like Payment Term Maximizer, Price Predictor by writing user stories, prioritizing bugs, optimizing performance, etc.
                                                 </li>
                                                 <li>
-                                                    <a >Associate Product Lead - iSource<span> (Feb 2020 - June 2020)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                                    <a >Associate Product Lead, iSource | Zycus, Mumbai, India<span> (Feb 2020 - July 2020)</span></a>
+                                                        Defined the product roadmap to include Approval Workflow in Quick source, a feature liked by DOW Chemicals, Nissan, Porsche, etc.
                                                 </li>
                                                 <li>
-                                                <a >Associate UX Lead - iAnalyze and Insight Studio<span> (April 2019 - Jan 2020)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                                <a >Associate UX Lead - iAnalyze and Insight Studio | Zycus, Mumbai, India<span> (Apr 2019 - Jan 2020)</span></a>
+                                                    Conceptualized the biggest UX revamp in Zycus’s history, named Dewdrops, for analytical and reporting tools from Zycus suite, called iAnalyze and Insight Studio.
+                                                </li>
+                                                <li>
+                                                <a > UX Designer | ETMONEY, Gurgaon, India<span> (Jun 2018 - Feb 2019)</span></a>
+                                                    Planned the release of the first credit product at ETMONEY, a personal loan offering powered by Fullerton India.
+
                                                 </li>
                                             </ul>
                                         </div>
@@ -47,16 +52,16 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                               <a >Associate Product Lead - Merlin AI Bot<span> (July 2020 - Till now)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                               <a >UX Intern | Samsung RnD Institute, Bangalore, India<span> (May 2017 - Jul 2017)</span></a>
+                                                    Worked to define the next messaging application within Samsung Design Framework.
                                                </li>
                                                <li>
-                                               <a >Associate Product Lead - Merlin AI Bot<span> (July 2020 - Till now)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                               <a >UX Intern | Microsoft Research Centre, Bangalore, India<span> (Jan 2017 - Apr 2017)</span></a>
+                                                    Worked with Microsoft Research Lab for an app based intervention in Healthcare for Tier 1 and lowerer cities of India.
                                                </li>
                                                <li>
-                                               <a >Associate Product Lead - Merlin AI Bot<span> (July 2020 - Till now)</span></a>
-                                                    Responsible for conceptualizing bots like Payment Term Maximizer, Price Predictor, writing user stories, prioritizing bugs, etc.
+                                               <a >UX Design Intern | The Minimalist, Mumbai, India<span> (May 2016 - Jul 2016)</span></a>
+                                                    Worked for stretegic UX development of various clients that worked with the company.
                                                </li>
                                            </ul>
                                        </div>
@@ -68,13 +73,16 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a >Institute Silver Medal<span> - Jun 2018</span></a> Awarded on account of being topper of Department of Design.
                                                </li>
                                                <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
+                                                    <a >Institute Merit Scholarships<span> - 2014 and 2016</span></a> Awarded on account of being yearly topper in 2016 and 2014.
                                                </li>
                                                <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                    <a >National Science Seminar<span> - Sep 2009</span></a>  Represented Indian state of Jharkhand at National Level.
+                                               </li>
+                                               <li>
+                                                    <a >Distinction in classical vocal music<span> - Nov 2008</span></a>  from Pracheen Kala Kendra, Chandigarh.
                                                </li>
                                            </ul>
                                        </div>
@@ -84,13 +92,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a >Bachelor in Design<span> - Indian Institute of Technology, Guwahati, India</span></a> CPI : 9.33 / 10
                                                </li>
                                                <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
+                                                   <a >High Schooling<span> - St. Joseph Senior Sec. School, CBSE</span></a> CBSE, 12th : 94.4%
                                                </li>
                                                <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a >Matriculation<span> - Ramakrishna Mission Vidyapith, Deoghar, India</span></a> CBSE, 10th : 10/10
                                                </li>
                                            </ul>
                                        </div>

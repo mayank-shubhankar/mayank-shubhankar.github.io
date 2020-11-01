@@ -56,8 +56,8 @@ class HeaderFour extends Component{
                             </a>
                         </div>
                     </div>
-                    <div className="header-right">
-                        <nav className="mainmenunav d-lg-block">
+                    {/* <div className="header-right"> */}
+                        {/* <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li className="has-droupdown"><Link to="#">Home</Link>
                                     <ul className="submenu">
@@ -117,21 +117,21 @@ class HeaderFour extends Component{
                                 </li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
-                        </nav>
-                        <div className="header-btn">
+                        </nav> */}
+                        {/* <div className="header-btn">
                             <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
                                 <span>buy now</span>
                             </a>
-                        </div>
+                        </div> */}
                         {/* Start Humberger Menu  */}
-                        <div className="humberger-menu d-block d-lg-none pl--20">
+                        {/* <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
-                        </div>
+                        </div> */}
                         {/* End Humberger Menu  */}
-                        <div className="close-menu d-block d-lg-none">
+                        {/* <div className="close-menu d-block d-lg-none">
                             <span onClick={this.CLoseMenuTrigger} className="closeTrigger"><FiX /></span>
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
                 </div>
             </header>
         )

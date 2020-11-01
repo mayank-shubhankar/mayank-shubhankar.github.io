@@ -24,7 +24,7 @@ class MSRPortfolioDetails extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Product Management at Zycus' />
+                <PageHelmet pageTitle='Internship at Microsoft' />
                 <HeaderSix homeLink="/" logo="symbol-dark" color="color-black"/>
 
                 {/* <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" /> */}
@@ -50,21 +50,21 @@ class MSRPortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
-                                    {/* <div className="inner">
-                                        <h2>AI Spend Bots (Zycus Merlin Studio)</h2>
-                                        <p className="subtitle"> Involved in the conceptualization and final delivery of two bots from Spend Analysis team at Zycus.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                                    <div className="inner">
+                                        <h2>Exploration on Healthcare</h2>
+                                        <p className="subtitle"> A design intervention to bridge the gap between healthcare systems of Tier 1 and lower tier cities of India.</p>
+                                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
 
 
                                         <h4 className="title">Fill the Google Form at the link below to get access to the project.</h4>
                                         <p>Project started with a clear understanding of Samsung's philosophy. There are 3 pillars of Samsung's philosophy.</p>
                                         
                                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_Pa0LhwCky-1cmt5EkhQEFQ43Bhe72rgPan-3PjDh7Y3JZA/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                         */}
                                         
                                         
                                         
-                                        
-                                    </div> */}
+                                    </div>
                                     
                                     
                                                
@@ -129,13 +129,13 @@ class MSRPortfolioDetails extends Component{
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
+                                        <a href="/zycus">
+                                            <img src="/assets/images/portfolio/zycus.png" alt="Portfolio-images"/>
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">What is next for messaging</a></h4>
-                                        <span className="category">Samsung Research and Development Institute</span>
+                                        <h4><a href="/zycus">AI Bots (Zycus Merlin Studio)</a></h4>
+                                        <span className="category">Product Management at Zycus</span>
                                     </div>
                                 </div>
                             </div>
@@ -144,13 +144,13 @@ class MSRPortfolioDetails extends Component{
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
+                                        <a href="/samsung">
+                                            <img src="/assets/images/portfolio/samsung.png" alt="Portfolio-images"/>
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
-                                        <span className="category">PLANNING</span>
+                                        <h4><a href="/portfolio-details">What is next for messaging</a></h4>
+                                        <span className="category">Samsung Research and Development Institute</span>
                                     </div>
                                 </div>
                             </div>
