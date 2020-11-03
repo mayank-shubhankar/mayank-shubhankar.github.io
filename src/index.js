@@ -41,6 +41,7 @@ import SamPortfolioDetails from "./elements/SamPortfolioDetails";
 import ZycPortfolioDetails from "./elements/ZycPortfolioDetails";
 import MSRPortfolioDetails from "./elements/MSRPortfolioDetails";
 import StickersPortfolioDetails from "./elements/StickersPortfolioDetails";
+import RnDPortfolioDetails from "./elements/RnDPortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -101,6 +102,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/zycus`} component={ZycPortfolioDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/microsoft`} component={MSRPortfolioDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/stickers`} component={StickersPortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/IITRnD`} component={RnDPortfolioDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 

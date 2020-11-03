@@ -4,19 +4,20 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
 const TabOne = [
-    {
-        image: '01',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
-        category: 'Product Management at Zycus',
-        title: 'AI Bots (Zycus Merlin Studio)',
-        url : '/zycus'
-    },
+    
     {
         image: '02',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
         category: 'Samsung Research and Development Institute',
         title: 'What is next for messaging',
         url : '/samsung'
+    },
+    {
+        image: '05',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+        category: 'Volunteered Product Management Work',
+        title: 'IIT Guwahati RnD Automation System',
+        url : '/IITRnD'
     },
     {
         image: '03',
@@ -26,18 +27,33 @@ const TabOne = [
         url : '/microsoft'
     },
     {
+        image: '01',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
+        category: 'Product Management at Zycus',
+        title: 'AI Bots (Zycus Merlin Studio)',
+        url : '/zycus'
+    },
+    {
         image: '04',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
         category: 'Visual Design',
         title: 'Triangulated Indians',
         url : '/stickers'
     },
+    
     
 ]
 
 
 const TabTwo = [
     {
+        image: '05',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+        category: 'Volunteered Product Management Work',
+        title: 'IIT Guwahati RnD Automation System',
+        url : '/IITRnD'
+    },
+    {
         image: '01',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
         category: 'Product Management at Zycus',
@@ -45,9 +61,17 @@ const TabTwo = [
         url : '/zycus'
     },
     
+    
 ]
 
 const TabThree = [
+    {
+        image: '05',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+        category: 'Volunteered Product Management Work',
+        title: 'IIT Guwahati RnD Automation System',
+        url : '/IITRnD'
+    },
     {
         image: '02',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
@@ -69,6 +93,7 @@ const TabThree = [
         title: 'Triangulated Indians',
         url : '/stickers'
     },
+    
 ]
 
 const TabFour = [
