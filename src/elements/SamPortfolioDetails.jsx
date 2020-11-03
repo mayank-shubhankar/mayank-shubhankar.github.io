@@ -188,7 +188,7 @@ class SamPortfolioDetails extends Component{
                                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p> */}
 
 
-                                        <div className="portfolio-view-list d-flex flex-wrap">
+                                        <div className="bauder portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
                                                 <span>Type of Project</span>
                                                 <h4>Internship at Samsung Research Institute, Bangalore</h4>
@@ -199,10 +199,6 @@ class SamPortfolioDetails extends Component{
                                                 <h4>May 2017 - Jul 2017</h4>
                                             </div>
 
-                                            <div className="port-view">
-                                                <span>Program</span>
-                                                <h4>View Project</h4>
-                                            </div>
                                         </div>
 
                                         {/* <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
